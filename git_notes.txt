@@ -1,0 +1,53 @@
+SDLC 
+  Software Development Life cycle
+Version control == (Source Code Management)
+	CVCS
+	DVCS 
+Tool  == software  == version 
+
+
+Git client tool (request)  http		Server(Respond)
+
+
+Step 1 : https://git-scm.com/downloads
+	  C:\Program Files\Git\bin
+
+Step 2:  Whom are you going to choose ?? (cloud) 
+		Github
+		gitlab
+		bitbucket 
+Step 3 :  create a account in Github / gitlab /bitbucket 
+
+
+Step 4 : create poject 
+
+Step 5 : create file "first.txt"  ( cloud) 
+
+
+Step 6 : create a folder in your local drive 
+
+Step 7 :
+git clone https://github.com/Jasonkardaniel/batch1.git
+
+cmd > git status 
+cmd > git add <filename>.ext 
+cmd > git add  . 	( to add all files and folder) 
+cmd > git commit -m "<meaningful message> "
+	stagging area 
+cmd > git remote -v ( where are you pushing) 
+
+
+github --> (rightside) --> settings --> Developer settings  --> personal access token--> Generate new token  --> 
+
+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
+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
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Jasonkardaniel/batch1.git
+git push -u origin main
+
+git branch -M main
+git push -u origin main
